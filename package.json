@@ -1,0 +1,23 @@
+{
+  "name": "emergentism-book",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fmw666/emergentism-manifesto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fmw666/emergentism-manifesto/issues"
+  },
+  "homepage": "https://github.com/fmw666/emergentism-manifesto#readme",
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
