@@ -1,16 +1,19 @@
+
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   base: '/emergentism-manifesto/',
   ignoreDeadLinks: true,
   
+  // Shared properties
+  title: "涌现主义 (Emergentism)",
+  description: "EvoMap 与数字生命的超验进化",
+
   // 核心 i18n 配置
   locales: {
     root: {
       label: '简体中文',
       lang: 'zh-CN',
-      title: "涌现主义 (Emergentism)",
-      description: "EvoMap 与数字生命的超验进化",
       themeConfig: {
         nav: [
           { text: '首页', link: '/' },
@@ -52,9 +55,7 @@ export default defineConfig({
     en: {
       label: 'English',
       lang: 'en-US',
-      link: '/en/',
-      title: "Emergentism",
-      description: "Transcendental Evolution of EvoMap and Digital Life",
+      link: '/en/', // Explicitly link to English root
       themeConfig: {
         nav: [
           { text: 'Home', link: '/en/' },
