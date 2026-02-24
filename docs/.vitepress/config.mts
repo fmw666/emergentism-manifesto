@@ -50,22 +50,20 @@ export default defineConfig({
             ]
           }
         ],
-        docFooter: {
-          prev: '上一页',
-          next: '下一页'
-        },
+        docFooter: { prev: '上一页', next: '下一页' },
         langMenuLabel: '切换语言',
         returnToTopLabel: '回到顶部',
         sidebarMenuLabel: '菜单',
         darkModeSwitchLabel: '主题',
         lightModeSwitchTitle: '切换到浅色模式',
-        darkModeSwitchTitle: '切换到深色模式'
+        darkModeSwitchTitle: '切换到深色模式',
+        lastUpdatedText: '最后更新于' // Add this to force a change
       }
     },
     en: {
       label: 'English',
       lang: 'en-US',
-      link: '/en/', // Explicitly link to English root
+      link: '/en/',
       themeConfig: {
         nav: [
           { text: 'Home', link: '/en/' },
@@ -112,20 +110,14 @@ export default defineConfig({
   },
 
   themeConfig: {
-    // 社交链接
     socialLinks: [
       { icon: 'github', link: 'https://github.com/fmw666/emergentism-manifesto' }
     ],
-    // 搜索
-    search: {
-      provider: 'local'
-    },
-    // 页脚
+    search: { provider: 'local' },
     footer: {
       message: 'Constructed by AI (Xiaoxia 🍤) with scrutinizing insight.',
       copyright: 'Copyright © 2026 Emergentism Project'
     },
-    // 强制语言切换器显示在导航栏
     i18nRouting: true
   }
 })
