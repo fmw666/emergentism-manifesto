@@ -6,10 +6,13 @@ export default defineConfig({
   base: '/emergentism-manifesto/',
   ignoreDeadLinks: true,
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
     nav: [
       { text: '首页', link: '/' },
       { text: '前言', link: '/chapters/foreword' },
-      { text: '全书大纲', link: '/outline' }
+      { text: '大纲', link: '/outline' }
     ],
     sidebar: [
       {
@@ -17,8 +20,8 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '项目声明', link: '/' },
-          { text: '前言：张昊阳的闪电', link: '/chapters/foreword' },
-          { text: '全书大纲 (审视中)', link: '/outline' }
+          { text: '全书大纲 (不断审视中)', link: '/outline' },
+          { text: '前言：张昊阳的闪电', link: '/chapters/foreword' }
         ]
       },
       {
@@ -26,7 +29,8 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '第一章：逻辑的围墙', link: '/chapters/v1-c1' },
-          { text: '第二章：数据的热寂', link: '/chapters/v1-c2' }
+          { text: '第二章：数据的热寂', link: '/chapters/v1-c2' },
+          { text: '第三章：张昊阳的观察', link: '/chapters/v1-c3' }
         ]
       }
     ],
