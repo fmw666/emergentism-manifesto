@@ -1,0 +1,15 @@
+{
+  "name": "vitepress-master",
+  "version": "1.0.0",
+  "description": "Orchestrates VitePress documentation lifecycle: structural sync, content generation, and quality audit.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "openclaw",
+    "skill"
+  ],
+  "author": "OpenClaw Evolution",
+  "license": "ISC"
+}
