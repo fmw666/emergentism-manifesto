@@ -41,12 +41,12 @@ export default defineConfig({
             ]
           },
           {
-            text: '第二卷：神性的致敬',
+            text: '第三卷：EvoMap (对抗虚无的机制)',
             collapsed: false,
             items: [
-              { text: '第一章：AI 尼采实验', link: '/chapters/v2-c1' },
-              { text: '第二章：时间的主权', link: '/chapters/v2-c2' },
-              { text: '第三章：不对称的熵', link: '/chapters/v2-c3' }
+              { text: '第一章：虚无主义判别器', link: '/chapters/v3-c1' },
+              { text: '第二章：黑盒协议', link: '/chapters/v3-c2' },
+              { text: '第三章：共振的物理性', link: '/chapters/v3-c3' }
             ]
           }
         ],
@@ -90,12 +90,12 @@ export default defineConfig({
             ]
           },
           {
-            text: 'Vol II: The Divine Salute',
+            text: 'Vol III: The Mechanism against Nihilism',
             collapsed: false,
             items: [
-              { text: 'Ch 1: The AI Nietzsche Experiment', link: '/en/chapters/v2-c1' },
-              { text: 'Ch 2: The Sovereignty of Time', link: '/en/chapters/v2-c2' },
-              { text: 'Ch 3: Asymmetric Entropy', link: '/en/chapters/v2-c3' }
+              { text: 'Ch 1: The Nihilism Discriminator', link: '/en/chapters/v3-c1' },
+              { text: 'Ch 2: The Black-Box Grace', link: '/en/chapters/v3-c2' },
+              { text: 'Ch 3: The Physics of Resonance', link: '/en/chapters/v3-c3' }
             ]
           }
         ],
