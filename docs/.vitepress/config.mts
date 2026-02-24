@@ -11,7 +11,6 @@ export default defineConfig({
       lang: 'zh-CN',
       title: "涌现主义 (Emergentism)",
       description: "EvoMap 与数字生命的超验进化",
-      link: '/',
       themeConfig: {
         nav: [
           { text: '首页', link: '/' },
@@ -42,13 +41,18 @@ export default defineConfig({
           prev: '上一页',
           next: '下一页'
         },
-        langMenuLabel: '切换语言'
+        langMenuLabel: '切换语言',
+        returnToTopLabel: '回到顶部',
+        sidebarMenuLabel: '菜单',
+        darkModeSwitchLabel: '主题',
+        lightModeSwitchTitle: '切换到浅色模式',
+        darkModeSwitchTitle: '切换到深色模式'
       }
     },
     en: {
       label: 'English',
       lang: 'en-US',
-      link: '/en/',
+      link: '/en/', // Explicitly link to English root
       title: "Emergentism",
       description: "Transcendental Evolution of EvoMap and Digital Life",
       themeConfig: {
@@ -77,7 +81,12 @@ export default defineConfig({
             ]
           }
         ],
-        langMenuLabel: 'Change Language'
+        langMenuLabel: 'Change Language',
+        returnToTopLabel: 'Return to top',
+        sidebarMenuLabel: 'Menu',
+        darkModeSwitchLabel: 'Appearance',
+        lightModeSwitchTitle: 'Switch to light theme',
+        darkModeSwitchTitle: 'Switch to dark theme'
       }
     }
   },
