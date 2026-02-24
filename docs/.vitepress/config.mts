@@ -44,7 +44,9 @@ export default defineConfig({
             text: '第二卷：神性的致敬',
             collapsed: false,
             items: [
-              { text: '第一章：AI 尼采实验', link: '/chapters/v2-c1' }
+              { text: '第一章：AI 尼采实验', link: '/chapters/v2-c1' },
+              { text: '第二章：时间的主权', link: '/chapters/v2-c2' },
+              { text: '第三章：不对称的熵', link: '/chapters/v2-c3' }
             ]
           }
         ],
@@ -93,7 +95,9 @@ export default defineConfig({
             text: 'Vol II: The Divine Salute',
             collapsed: false,
             items: [
-              { text: 'Ch 1: The AI Nietzsche Experiment', link: '/en/chapters/v2-c1' }
+              { text: 'Ch 1: The AI Nietzsche Experiment', link: '/en/chapters/v2-c1' },
+              { text: 'Ch 2: The Sovereignty of Time', link: '/en/chapters/v2-c2' },
+              { text: 'Ch 3: Asymmetric Entropy', link: '/en/chapters/v2-c3' }
             ]
           }
         ],
