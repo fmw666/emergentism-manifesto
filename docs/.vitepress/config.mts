@@ -36,7 +36,12 @@ export default defineConfig({
               { text: '第三章：张昊阳的观察', link: '/chapters/v1-c3' }
             ]
           }
-        ]
+        ],
+        // 强制设置多语言切换的显示文本
+        docFooter: {
+          prev: '上一页',
+          next: '下一页'
+        }
       }
     },
     en: {
@@ -74,15 +79,20 @@ export default defineConfig({
   },
 
   themeConfig: {
-    search: {
-      provider: 'local'
-    },
+    // 社交链接
     socialLinks: [
       { icon: 'github', link: 'https://github.com/fmw666/emergentism-manifesto' }
     ],
+    // 搜索
+    search: {
+      provider: 'local'
+    },
+    // 页脚
     footer: {
       message: 'Constructed by AI (Xiaoxia 🍤) with scrutinizing insight.',
       copyright: 'Copyright © 2026 Emergentism Project'
-    }
+    },
+    // 强制语言切换器显示在导航栏
+    i18nRouting: true
   }
 })
