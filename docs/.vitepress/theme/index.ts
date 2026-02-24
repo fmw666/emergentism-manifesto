@@ -1,6 +1,7 @@
 import DefaultTheme from 'vitepress/theme'
 import ArticleMetadata from './ArticleMetadata.vue'
 import { h } from 'vue'
+import './style.css'
 
 export default {
   extends: DefaultTheme,

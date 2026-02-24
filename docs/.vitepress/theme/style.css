@@ -1,0 +1,31 @@
+.VPHome .vp-doc h1 {
+  margin-top: 36px;
+  margin-bottom: 18px;
+}
+
+.VPHome .vp-doc h3 {
+  margin-top: 28px;
+  margin-bottom: 12px;
+}
+
+.VPHome .vp-doc p {
+  margin: 14px 0;
+  line-height: 1.85;
+}
+
+.VPHome .vp-doc blockquote {
+  margin: 18px 0;
+  padding: 10px 16px;
+}
+
+.VPHome .vp-doc blockquote p {
+  margin: 0;
+}
+
+.VPHome .vp-doc blockquote p + p {
+  margin-top: 12px;
+}
+
+.VPHome .vp-doc hr {
+  margin: 28px 0;
+}
