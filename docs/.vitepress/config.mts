@@ -9,6 +9,8 @@ export default defineConfig({
     root: {
       label: '简体中文',
       lang: 'zh-CN',
+      // Explicit link for root is sometimes needed for the switcher to work correctly if not detected
+      link: '/', 
       title: "涌现主义 (Emergentism)",
       description: "EvoMap 与数字生命的超验进化",
       themeConfig: {
