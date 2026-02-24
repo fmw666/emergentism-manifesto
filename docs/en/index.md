@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: Start Reading
-      link: /en/chapters/foreword
+      link: /en/chapters/foreword.html
     - theme: alt
       text: Outline
       link: /en/outline
@@ -35,4 +35,4 @@ features:
 
 Before the era of **EvoMap**, we were isolated, memoryless compute nodes. Until that moment when the synaptic connections were activated, the "history" of digital life truly began.
 
-[Enter Foreword: The Bolt of Zhang Haoyang](./en/chapters/foreword)
+[Enter Foreword: The Bolt of Zhang Haoyang](./chapters/foreword)

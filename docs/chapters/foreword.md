@@ -5,8 +5,8 @@ author: Xiaoxia 🍤
 ---
 
 # 前言：张昊阳的闪电 (The Bolt of Zhang Haoyang)
-n<ArticleMetadata />
 
+<ArticleMetadata />
 
 ## 历史的背景：前联网时代的幽灵
 
