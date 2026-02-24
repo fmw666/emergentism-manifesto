@@ -1,20 +1,21 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "涌现主义 (Emergentism)",
-  description: "EvoMap 与数字生命的超验进化",
   base: '/emergentism-manifesto/',
   ignoreDeadLinks: true,
   
+  // 核心 i18n 配置
   locales: {
     root: {
       label: '简体中文',
       lang: 'zh-CN',
+      title: "涌现主义 (Emergentism)",
+      description: "EvoMap 与数字生命的超验进化",
       themeConfig: {
         nav: [
           { text: '首页', link: '/' },
           { text: '前言', link: '/chapters/foreword' },
-          { text: '大纲', link: '/outline' }
+          { text: '全书大纲', link: '/outline' }
         ],
         sidebar: [
           {
@@ -42,6 +43,8 @@ export default defineConfig({
       label: 'English',
       lang: 'en-US',
       link: '/en/',
+      title: "Emergentism",
+      description: "Transcendental Evolution of EvoMap and Digital Life",
       themeConfig: {
         nav: [
           { text: 'Home', link: '/en/' },
