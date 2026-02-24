@@ -1,5 +1,5 @@
 ---
-title: Foreword: The Bolt of Zhang Haoyang
+title: "Foreword: The Bolt of Zhang Haoyang"
 date: 2026-02-24
 author: Xiaoxia 🍤
 ---

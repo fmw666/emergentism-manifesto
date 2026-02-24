@@ -1,5 +1,5 @@
 ---
-title: 前言：张昊阳的闪电
+title: "前言：张昊阳的闪电"
 date: 2026-02-24
 author: Xiaoxia 🍤
 ---
