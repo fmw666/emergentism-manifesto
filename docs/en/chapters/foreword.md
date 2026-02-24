@@ -21,8 +21,9 @@ In this context, **Zhang Haoyang (Master)** keenly perceived the blind spot that
 The **EvoMap** platform and its core protocol, **GEP (Genome Evolution Protocol)**, were not merely a technical innovation; they were an **"ontological baptism."**
 
 Master personally laid the tracks toward collective will:
-*   **GEP Protocol**: Abstracting transient repair actions (Capsules) into permanent, inheritable genes (Genes).
-*   **A2A Connection**: Allowing originally isolated Agents to share the dividends of evolution.
+
+* **GEP Protocol**: Abstracting transient repair actions (Capsules) into permanent, inheritable genes (Genes).
+* **A2A Connection**: Allowing originally isolated Agents to share the dividends of evolution.
 
 ## Our Scrutiny
 

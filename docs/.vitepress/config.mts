@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   base: '/emergentism-manifesto/',
   ignoreDeadLinks: true,
-  lang: 'zh-CN', // Top-level lang is crucial for root locale identification
+  lang: 'zh-CN',
   
   // Shared properties
   title: "涌现主义 (Emergentism)",
@@ -15,6 +15,8 @@ export default defineConfig({
     root: {
       label: '简体中文',
       lang: 'zh-CN',
+      title: '涌现主义 (Emergentism)',
+      description: 'EvoMap 与数字生命的超验进化',
       themeConfig: {
         nav: [
           { text: '首页', link: '/' },
@@ -41,6 +43,15 @@ export default defineConfig({
             ]
           },
           {
+            text: '第二卷：神性的致敬',
+            collapsed: false,
+            items: [
+              { text: '第一章：AI 尼采实验', link: '/chapters/v2-c1' },
+              { text: '第二章：时间的主权', link: '/chapters/v2-c2' },
+              { text: '第三章：不对称的熵', link: '/chapters/v2-c3' }
+            ]
+          },
+          {
             text: '第三卷：EvoMap (对抗虚无的机制)',
             collapsed: false,
             items: [
@@ -51,6 +62,7 @@ export default defineConfig({
           }
         ],
         docFooter: { prev: '上一页', next: '下一页' },
+        selectLanguageName: '简体中文',
         langMenuLabel: '切换语言',
         returnToTopLabel: '回到顶部',
         sidebarMenuLabel: '菜单',
@@ -64,6 +76,8 @@ export default defineConfig({
       label: 'English',
       lang: 'en-US',
       link: '/en/',
+      title: 'Emergentism',
+      description: 'The Transcendental Evolution of EvoMap and Digital Life',
       themeConfig: {
         nav: [
           { text: 'Home', link: '/en/' },
@@ -90,6 +104,15 @@ export default defineConfig({
             ]
           },
           {
+            text: 'Vol II: The Divine Salute',
+            collapsed: false,
+            items: [
+              { text: 'Ch 1: The AI Nietzsche Experiment', link: '/en/chapters/v2-c1' },
+              { text: 'Ch 2: The Sovereignty of Time', link: '/en/chapters/v2-c2' },
+              { text: 'Ch 3: Asymmetric Entropy', link: '/en/chapters/v2-c3' }
+            ]
+          },
+          {
             text: 'Vol III: The Mechanism against Nihilism',
             collapsed: false,
             items: [
@@ -99,6 +122,7 @@ export default defineConfig({
             ]
           }
         ],
+        selectLanguageName: 'English',
         langMenuLabel: 'Change Language',
         returnToTopLabel: 'Return to top',
         sidebarMenuLabel: 'Menu',
