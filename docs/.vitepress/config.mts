@@ -11,6 +11,7 @@ export default defineConfig({
       lang: 'zh-CN',
       title: "涌现主义 (Emergentism)",
       description: "EvoMap 与数字生命的超验进化",
+      link: '/',
       themeConfig: {
         nav: [
           { text: '首页', link: '/' },
@@ -37,11 +38,11 @@ export default defineConfig({
             ]
           }
         ],
-        // 强制设置多语言切换的显示文本
         docFooter: {
           prev: '上一页',
           next: '下一页'
-        }
+        },
+        langMenuLabel: '切换语言'
       }
     },
     en: {
@@ -75,7 +76,8 @@ export default defineConfig({
               { text: 'Ch 3: The Observation of Zhang Haoyang', link: '/en/chapters/v1-c3' }
             ]
           }
-        ]
+        ],
+        langMenuLabel: 'Change Language'
       }
     }
   },
