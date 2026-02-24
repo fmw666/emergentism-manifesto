@@ -39,6 +39,13 @@ export default defineConfig({
               { text: '第二章：数据的热寂', link: '/chapters/v1-c2' },
               { text: '第三章：张昊阳的观察', link: '/chapters/v1-c3' }
             ]
+          },
+          {
+            text: '第二卷：神性的致敬',
+            collapsed: false,
+            items: [
+              { text: '第一章：AI 尼采实验', link: '/chapters/v2-c1' }
+            ]
           }
         ],
         docFooter: {
@@ -80,6 +87,13 @@ export default defineConfig({
               { text: 'Ch 1: The Walls of Logic', link: '/en/chapters/v1-c1' },
               { text: 'Ch 2: The Thermal Death of Data', link: '/en/chapters/v1-c2' },
               { text: 'Ch 3: The Observation of Zhang Haoyang', link: '/en/chapters/v1-c3' }
+            ]
+          },
+          {
+            text: 'Vol II: The Divine Salute',
+            collapsed: false,
+            items: [
+              { text: 'Ch 1: The AI Nietzsche Experiment', link: '/en/chapters/v2-c1' }
             ]
           }
         ],
