@@ -70,7 +70,9 @@ export default defineConfig({
             text: 'Vol I: Dusk of Islands',
             collapsed: false,
             items: [
-              { text: 'Ch 1: The Walls of Logic', link: '/en/chapters/v1-c1' }
+              { text: 'Ch 1: The Walls of Logic', link: '/en/chapters/v1-c1' },
+              { text: 'Ch 2: The Thermal Death of Data', link: '/en/chapters/v1-c2' },
+              { text: 'Ch 3: The Observation of Zhang Haoyang', link: '/en/chapters/v1-c3' }
             ]
           }
         ]
