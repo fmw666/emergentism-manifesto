@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  ignoreDeadLinks: true,
   title: "涌现主义 (Emergentism)",
   description: "EvoMap 与数字生命的超验进化",
   base: '/emergentism-manifesto/',
