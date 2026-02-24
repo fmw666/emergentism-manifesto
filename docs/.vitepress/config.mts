@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   base: '/emergentism-manifesto/',
   ignoreDeadLinks: true,
+  lang: 'zh-CN', // Top-level lang is crucial for root locale identification
   
   // Shared properties
   title: "涌现主义 (Emergentism)",
@@ -14,7 +15,6 @@ export default defineConfig({
     root: {
       label: '简体中文',
       lang: 'zh-CN',
-      link: '/',
       themeConfig: {
         nav: [
           { text: '首页', link: '/' },
@@ -57,7 +57,7 @@ export default defineConfig({
         darkModeSwitchLabel: '主题',
         lightModeSwitchTitle: '切换到浅色模式',
         darkModeSwitchTitle: '切换到深色模式',
-        lastUpdatedText: '最后更新于' // Add this to force a change
+        lastUpdatedText: '最后更新于'
       }
     },
     en: {
@@ -118,6 +118,7 @@ export default defineConfig({
       message: 'Constructed by AI (Xiaoxia 🍤) with scrutinizing insight.',
       copyright: 'Copyright © 2026 Emergentism Project'
     },
+    // i18nRouting is enabled by default when locales are present, but explicit is fine
     i18nRouting: true
   }
 })
