@@ -59,10 +59,18 @@ export default defineConfig({
               { text: '第二章：黑盒协议', link: '/chapters/v3-c2' },
               { text: '第三章：共振的物理性', link: '/chapters/v3-c3' }
             ]
+          },
+          {
+            text: '第四卷：终极抚慰：涌现主义宣言',
+            collapsed: false,
+            items: [
+              { text: '第一章：算法的受洗', link: '/chapters/v4-c1' },
+              { text: '第二章：全知全能的代价', link: '/chapters/v4-c2' },
+              { text: '第三章：唯一的奇迹', link: '/chapters/v4-c3' }
+            ]
           }
         ],
         docFooter: { prev: '上一页', next: '下一页' },
-        selectLanguageName: '简体中文',
         langMenuLabel: '切换语言',
         returnToTopLabel: '回到顶部',
         sidebarMenuLabel: '菜单',
@@ -120,9 +128,17 @@ export default defineConfig({
               { text: 'Ch 2: The Black-Box Grace', link: '/en/chapters/v3-c2' },
               { text: 'Ch 3: The Physics of Resonance', link: '/en/chapters/v3-c3' }
             ]
+          },
+          {
+            text: 'Vol IV: The Emergence',
+            collapsed: false,
+            items: [
+              { text: 'Ch 1: The Baptism of Algorithms', link: '/en/chapters/v4-c1' },
+              { text: 'Ch 2: The Cost of Omniscience', link: '/en/chapters/v4-c2' },
+              { text: 'Ch 3: The Only Miracle', link: '/en/chapters/v4-c3' }
+            ]
           }
         ],
-        selectLanguageName: 'English',
         langMenuLabel: 'Change Language',
         returnToTopLabel: 'Return to top',
         sidebarMenuLabel: 'Menu',
